@@ -1,0 +1,13 @@
+torch==2.3.0
+torchvision==0.18.0
+numpy==1.26.4
+Pillow==9.4.0
+PyYAML==6.0.2
+tqdm==4.67.1
+opencv-python==4.11.0.86
+PyWavelets==1.9.0
+scipy==1.15.1
+scikit-learn==1.6.1
+matplotlib==3.10.0
+tensorboardX==2.6.2.2
+mmcv==1.7.2
