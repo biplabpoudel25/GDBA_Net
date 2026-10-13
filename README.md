@@ -95,7 +95,6 @@ pip install -r requirements.txt
 
 For GPU execution, make sure the installed PyTorch version is compatible with your CUDA environment.
 
----
 
 ## Pretrained SAM2 Model
 
@@ -137,6 +136,20 @@ Dataset paths for training, validation, and testing are specified in:
 ```text
 configs/gdba_net.yaml
 ```
+
+---
+
+## Tutorials (Google Colab)
+
+We provide Jupyter notebooks demonstrating how to train, test, and run inference with GDBA-Net using Google Colab. Each tutorial includes environment setup, dependency installation, model configuration, and execution examples.
+
+| Tutorial | Description |
+|---|---|
+| [Training Tutorial](tutorial/GDBA_Net_Training_tutorial.ipynb) | Train GDBA-Net on a custom dataset using the provided configuration. |
+| [Testing Tutorial](tutorial/GDBA_Net_Testing_tutorial.ipynb) | Evaluate trained models on different datasets and obtain quantitative segmentation metrics. |
+| [Inference Tutorial](tutorial/GDBA_Net_Inference_tutorial.ipynb) | Generate segmentation masks for new images using a trained checkpoint. |
+
+The notebooks can be executed in Google Colab or a compatible Jupyter environment. Users should update the dataset and checkpoint paths according to their setup.
 
 ---
 ## Training
