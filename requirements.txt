@@ -10,4 +10,4 @@ scipy==1.15.1
 scikit-learn==1.6.1
 matplotlib==3.10.0
 tensorboardX==2.6.2.2
-mmcv==1.7.2
+fsspec
