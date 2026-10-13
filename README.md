@@ -95,6 +95,7 @@ pip install -r requirements.txt
 
 For GPU execution, make sure the installed PyTorch version is compatible with your CUDA environment.
 
+---
 
 ## Pretrained SAM2 Model
 
